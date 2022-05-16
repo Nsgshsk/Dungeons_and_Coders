@@ -1,0 +1,12 @@
+E:\CSharpProjects\Dungeons_and_Coders\Dungeon_Logic\bin\Debug\net6.0\Dungeon_Logic.deps.json
+E:\CSharpProjects\Dungeons_and_Coders\Dungeon_Logic\bin\Debug\net6.0\Dungeon_Logic.dll
+E:\CSharpProjects\Dungeons_and_Coders\Dungeon_Logic\bin\Debug\net6.0\Dungeon_Logic.pdb
+E:\CSharpProjects\Dungeons_and_Coders\Dungeon_Logic\obj\Debug\net6.0\Dungeon_Logic.csproj.AssemblyReference.cache
+E:\CSharpProjects\Dungeons_and_Coders\Dungeon_Logic\obj\Debug\net6.0\Dungeon_Logic.GeneratedMSBuildEditorConfig.editorconfig
+E:\CSharpProjects\Dungeons_and_Coders\Dungeon_Logic\obj\Debug\net6.0\Dungeon_Logic.AssemblyInfoInputs.cache
+E:\CSharpProjects\Dungeons_and_Coders\Dungeon_Logic\obj\Debug\net6.0\Dungeon_Logic.AssemblyInfo.cs
+E:\CSharpProjects\Dungeons_and_Coders\Dungeon_Logic\obj\Debug\net6.0\Dungeon_Logic.csproj.CoreCompileInputs.cache
+E:\CSharpProjects\Dungeons_and_Coders\Dungeon_Logic\obj\Debug\net6.0\Dungeon_Logic.dll
+E:\CSharpProjects\Dungeons_and_Coders\Dungeon_Logic\obj\Debug\net6.0\refint\Dungeon_Logic.dll
+E:\CSharpProjects\Dungeons_and_Coders\Dungeon_Logic\obj\Debug\net6.0\Dungeon_Logic.pdb
+E:\CSharpProjects\Dungeons_and_Coders\Dungeon_Logic\obj\Debug\net6.0\ref\Dungeon_Logic.dll

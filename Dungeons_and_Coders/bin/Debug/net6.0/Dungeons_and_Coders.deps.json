@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Dungeons_and_Coders/1.0.0": {
+        "dependencies": {
+          "Dungeon_Logic": "1.0.0"
+        },
+        "runtime": {
+          "Dungeons_and_Coders.dll": {}
+        }
+      },
+      "Dungeon_Logic/1.0.0": {
+        "runtime": {
+          "Dungeon_Logic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dungeons_and_Coders/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dungeon_Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
