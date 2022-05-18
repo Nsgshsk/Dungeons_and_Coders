@@ -3,42 +3,107 @@
 do
 {
     string[] command = Console.ReadLine().Split(' ');
-    string tmp;
     switch (command[0])
     {
         case "JoinParty":
-            Console.WriteLine(DungeonMaster.JoinParty(command));
+            try
+            {
+                Console.WriteLine(DungeonMaster.JoinParty(command));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             break;
         case "AddItemToPool":
-            Console.WriteLine(DungeonMaster.AddItemToPool(command));
+            try
+            {
+                Console.WriteLine(DungeonMaster.AddItemToPool(command));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             break;
         case "PickUpItem":
-            Console.WriteLine(DungeonMaster.PickUpItem(command));
+            try
+            {
+                Console.WriteLine(DungeonMaster.PickUpItem(command));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             break;
         case "UseItem":
-            Console.WriteLine(DungeonMaster.UseItem(command));
+            try
+            {
+                Console.WriteLine(DungeonMaster.UseItem(command));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             break;
         case "UseItemOn":
-            Console.WriteLine(DungeonMaster.UseItemOn(command));
+            try
+            {
+                Console.WriteLine(DungeonMaster.UseItemOn(command));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             break;
         case "GiveCharacterItem":
-            Console.WriteLine(DungeonMaster.GiveCharacterItem(command));
+            try
+            {
+                Console.WriteLine(DungeonMaster.GiveCharacterItem(command));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             break;
         case "GetStats":
-            tmp = DungeonMaster.GetStats();
-            if (tmp != null)
-                Console.WriteLine(tmp);
+            try
+            {
+                Console.WriteLine(DungeonMaster.GetStats());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             break;
         case "Attack":
-            Console.WriteLine(DungeonMaster.Attack(command));
+            try
+            {
+                Console.WriteLine(DungeonMaster.Attack(command));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             break;
         case "Heal":
-            Console.WriteLine(DungeonMaster.Heal(command));
+            try
+            {
+                Console.WriteLine(DungeonMaster.Heal(command));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             break;
         case "EndTurn":
-            tmp = DungeonMaster.EndTurn();
-            if (tmp != null)
-                Console.WriteLine(tmp);
+            try
+            {
+                Console.WriteLine(DungeonMaster.EndTurn());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
             break;
         case "IsGameOver":
             Console.WriteLine(DungeonMaster.IsGameOver());

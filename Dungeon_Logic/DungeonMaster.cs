@@ -132,16 +132,16 @@
             }
         }
 
-        public static string? GetStats()
+        public static string GetStats()
         {
-            if (!characters.Any())
-                return null;
-            string tmp = $"{characters.First().Name} - HP: {characters.First().Health}/{characters.First().BaseHealth}, AP: {characters.First().Armor}/{characters.First().BaseArmor}, Status: {characters.First().IsAlive}";
-            foreach (var item in characters.Skip(1).OrderByDescending(e => e.IsAlive).ThenByDescending(e => e.Health))
+            if (characters.Count == 0)
+                throw new InvalidOperationException("There are no characters created!");
+            string tmp = "";
+            foreach (var item in characters.OrderByDescending(e => e.IsAlive).ThenByDescending(e => e.Health))
             {
                 tmp += $"\n{item.Name} - HP: {item.Health}/{item.BaseHealth}, AP: {item.Armor}/{item.BaseArmor}, Status: {item.IsAlive}";
             }
-            return tmp;
+            return tmp.Substring(1);
         }
 
         public static string Attack(string[] args)
@@ -194,10 +194,10 @@
             }
         }
 
-        public static string? EndTurn()
+        public static string EndTurn()
         {
-            if (!characters.Any())
-                return null;
+            if (characters.Count == 0)
+                throw new InvalidOperationException("There are no characters created!");
             string tmp = "";
             int alive = 0;
             foreach (var item in characters)
